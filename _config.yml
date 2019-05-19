@@ -1,0 +1,38 @@
+title:        twinberrylane.com site
+description:  Home of twinberrylane.com
+url:          https://twinberrylane.github.io/
+raw_url: https://twinberrylane.github.io/
+
+version:      1.0.0
+
+author:
+  name:       'twinberrylane'
+  email:      'info@twinberrylane.com'
+markdown:     kramdown
+permalink:    pretty
+pygments:     true
+highlighter:  rouge
+
+permalink: /:categories/:year/:month/:day/:title/
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+
+paginate: 50
+paginate_path: "/blog/page:num"
+
+categories_path : /categories.html
+tags_path : /tags.html
+
+production_url : https://twinberrylane.github.io/
+
+image : https://twinberrylane.github.io/public/images/twinberrylane.png
+imagesecure : https://twinberrylane.github.io/public/images/twinberrylane.png
+
+github_user: twinberrylane
+github_repo: twinberrylane.github.io
+
+
+# Footer
+footer_title: twinberrylane.com site
+footer_link: https://twinberrylane.github.io/
+footer_image_source: https://twinberrylane.github.io/public/images/twinberrylane.png
+footer_image_width: 60
